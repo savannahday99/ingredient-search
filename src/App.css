@@ -1,9 +1,64 @@
 .App {
   text-align: center;
+  font-family: Roboto;
+  color: #525252;
+  letter-spacing: 0.2 em;
+  font-weight: 300;
 }
+
+body {
+  color: #f6f8f8;
+}
+
+p {
+  text-align: left;
+  padding-left: 350px;
+  padding-right: 350px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+label {
+  display: block;
+}
+
+textarea {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  border: 1px solid #ccc;
+  position: relative;
+}
+
+button {
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 500;
+  color: #fff;
+  background-color: #caded8;
+  border-color: #caded8;
+  border-radius: 3px;
+  box-shadow: 0 2px 0 0 #b1cec6;
+  transition: 0.1s background-color linear;
+  padding: 1em 2.5em;
+  text-transform: uppercase;
+  letter-spacing: 0.15em;
+}
+
+h1 {
+  color: #525252;
+  font-family: Roboto;
+  font-weight: 300;
+  font-size: 31px;
+  letter-spacing: 0.2 em;
+  text-transform: uppercase;
+  line-height: 1.3em;
+}
+
 ul {
   list-style: none;
-  columns: 3;
-  -webkit-columns: 3;
-  -moz-columns: 3;
+  columns: 1;
+  -webkit-columns: 1;
+  -moz-columns: 1;
 }
